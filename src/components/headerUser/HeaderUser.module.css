@@ -1,0 +1,42 @@
+.mainHeaderUser {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.divImg {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 4%;
+}
+
+.searchChat {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.authDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 80%;
+}
+
+.nameDiv {
+    color: #252222;
+    font-size: 18px;
+}
+
+.button {
+    cursor: pointer;
+    height: 35%;
+    width: 20%;
+}
+
+

@@ -1,0 +1,21 @@
+.contactMiniDiv {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 40px;
+    background-color: #d9d7d7;
+    padding: 0 4%;
+    cursor: pointer;
+}
+
+.imgContactMini {
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.loginContactMini {
+    width: 70%;
+    padding: 0 10%;
+}

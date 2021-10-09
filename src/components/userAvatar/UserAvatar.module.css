@@ -1,0 +1,14 @@
+.divImgUser {
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.onlineDivUser {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    margin: 75% 0 0 75%;
+    border: 1px solid green;
+}
