@@ -1,10 +1,10 @@
 import cl from "./HeaderUser.module.css";
 import UserAvatar from "../userAvatar/UserAvatar";
-import imageUser from "../../data/images/the_Contacts_iOS7_App-1.png";
 import InputSearch from "../inputSearch/InputSearch";
 import {useDispatch, useSelector} from "react-redux";
 import {setAuth} from "../../redux/actions";
 import {useHistory} from "react-router";
+import {imgUser} from "../../services";
 
 export default function HeaderUser() {
     const {mainReducer} = useSelector(state => state);
@@ -24,7 +24,7 @@ export default function HeaderUser() {
                     ?
                     <UserAvatar imgUrl={user.photoURL} online={true} width={"55px"}/>
                     :
-                    <UserAvatar imgUrl={imageUser} online={true} width={"55px"}/>
+                    <UserAvatar imgUrl={imgUser} online={true} width={"55px"}/>
                 }
 
                 {user.displayName &&

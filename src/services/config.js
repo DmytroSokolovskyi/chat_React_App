@@ -3,6 +3,7 @@ import firebase from "firebase/compat";
 import "firebase/auth";
 
 export const apiUrl = 'https://api.chucknorris.io/jokes/random';
+export const imgUser = 'https://cdn-icons-png.flaticon.com/512/21/21104.png';
 
 export const config = {
     baseURL: apiUrl,
